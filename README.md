@@ -1,1 +1,1 @@
-# UncrossedKnightPath
+A naive solution (ie. just depth first search) in java for finding the longest uncrossed knight path (a bunch of knight moves that don't cross previous moves) on an n x n board. Not completely naive in that symmetry is accounted for (making it ~8x faster than a totally naive solution). That SOUNDS like a lot, but this code takes a few minutes for n=7 and about an hour for n=8, so you "only" get one higher n. Solutions for n=10+ are not known according to wikipedia.
